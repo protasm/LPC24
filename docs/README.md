@@ -292,120 +292,120 @@ v8.4.5. Method Result
 <p>11.2.2. Exception Analysis of Statements
 <p>11.2.3. Exception Checking
 <p>11.3. Run-Time Handling of an Exception
-12. Execution
-12.1. Java Virtual Machine Startup
-12.1.1. Load the Class Test
-12.1.2. Link Test: Verify, Prepare, (Optionally) Resolve
-12.1.3. Initialize Test: Execute Initializers
-12.1.4. Invoke Test.main
-12.2. Loading of Classes and Interfaces
-12.2.1. The Loading Process
-12.2.2. Class Loader Consistency
-12.3. Linking of Classes and Interfaces
-12.3.1. Verification of the Binary Representation
-12.3.2. Preparation of a Class or Interface
-12.3.3. Resolution of Symbolic References
-12.4. Initialization of Classes and Interfaces
-12.4.1. When Initialization Occurs
-12.4.2. Detailed Initialization Procedure
-12.5. Creation of New Class Instances
-12.6. Finalization of Class Instances
-12.6.1. Implementing Finalization
-12.6.2. Interaction with the Memory Model
-12.7. Unloading of Classes and Interfaces
-12.8. Program Exit
-13. Binary Compatibility
-13.1. The Form of a Binary
-13.2. What Binary Compatibility Is and Is Not
-13.3. Evolution of Packages and Modules
-13.4. Evolution of Classes
-13.4.1. abstract Classes
-13.4.2. sealed, non-sealed, and final Classes
-13.4.2.1. sealed Classes
-13.4.2.2. non-sealed Classes
-13.4.2.3. final Classes
-13.4.3. public Classes
-13.4.4. Superclasses and Superinterfaces
-13.4.5. Class Type Parameters
-13.4.6. Class Body and Member Declarations
-13.4.7. Access to Members and Constructors
-13.4.8. Field Declarations
-13.4.9. final Fields and static Constant Variables
-13.4.10. static Fields
-13.4.11. transient Fields
-13.4.12. Method and Constructor Declarations
-13.4.13. Method and Constructor Type Parameters
-13.4.14. Method and Constructor Formal Parameters
-13.4.15. Method Result Type
-13.4.16. abstract Methods
-13.4.17. final Methods
-13.4.18. native Methods
-13.4.19. static Methods
-13.4.20. synchronized Methods
-13.4.21. Method and Constructor Throws
-13.4.22. Method and Constructor Body
-13.4.23. Method and Constructor Overloading
-13.4.24. Method Overriding
-13.4.25. Static Initializers
-13.4.26. Evolution of Enum Classes
-13.4.27. Evolution of Record Classes
-13.5. Evolution of Interfaces
-13.5.1. public Interfaces
-13.5.2. sealed and non-sealed Interfaces
-13.5.3. Superinterfaces
-13.5.4. Interface Members
-13.5.5. Interface Type Parameters
-13.5.6. Field Declarations
-13.5.7. Interface Method Declarations
-13.5.8. Annotation Interfaces
-14. Blocks, Statements, and Patterns
-14.1. Normal and Abrupt Completion of Statements
-14.2. Blocks
-14.3. Local Class and Interface Declarations
-14.4. Local Variable Declarations
-14.4.1. Local Variable Declarators and Types
-14.4.2. Local Variable Declaration Statements
-14.5. Statements
-14.6. The Empty Statement
-14.7. Labeled Statements
-14.8. Expression Statements
-14.9. The if Statement
-14.9.1. The if-then Statement
-14.9.2. The if-then-else Statement
-14.10. The assert Statement
-14.11. The switch Statement
-14.11.1. Switch Blocks
-14.11.1.1. Exhaustive Switch Blocks
-14.11.1.2. Determining which Switch Label Applies at Run Time
-14.11.2. The Switch Block of a switch Statement
-14.11.3. Execution of a switch Statement
-14.12. The while Statement
-14.12.1. Abrupt Completion of while Statement
-14.13. The do Statement
-14.13.1. Abrupt Completion of do Statement
-14.14. The for Statement
-14.14.1. The basic for Statement
-14.14.1.1. Initialization of for Statement
-14.14.1.2. Iteration of for Statement
-14.14.1.3. Abrupt Completion of for Statement
-14.14.2. The enhanced for statement
-14.15. The break Statement
-14.16. The continue Statement
-14.17. The return Statement
-14.18. The throw Statement
-14.19. The synchronized Statement
-14.20. The try statement
-14.20.1. Execution of try-catch
-14.20.2. Execution of try-finally and try-catch-finally
-14.20.3. try-with-resources
-14.20.3.1. Basic try-with-resources
-14.20.3.2. Extended try-with-resources
-14.21. The yield Statement
-14.22. Unreachable Statements
-14.30. Patterns
-14.30.1. Kinds of Patterns
-14.30.2. Pattern Matching
-14.30.3. Properties of Patterns
+<p>12. Execution
+<p>12.1. Java Virtual Machine Startup
+<p>12.1.1. Load the Class Test
+<p>12.1.2. Link Test: Verify, Prepare, (Optionally) Resolve
+<p>12.1.3. Initialize Test: Execute Initializers
+<p>12.1.4. Invoke Test.main
+<p>12.2. Loading of Classes and Interfaces
+<p>12.2.1. The Loading Process
+<p>12.2.2. Class Loader Consistency
+<p>12.3. Linking of Classes and Interfaces
+<p>12.3.1. Verification of the Binary Representation
+<p>12.3.2. Preparation of a Class or Interface
+<p>12.3.3. Resolution of Symbolic References
+<p>12.4. Initialization of Classes and Interfaces
+<p>12.4.1. When Initialization Occurs
+<p>12.4.2. Detailed Initialization Procedure
+<p>12.5. Creation of New Class Instances
+<p>12.6. Finalization of Class Instances
+<p>12.6.1. Implementing Finalization
+<p>12.6.2. Interaction with the Memory Model
+<p>12.7. Unloading of Classes and Interfaces
+<p>12.8. Program Exit
+<p>13. Binary Compatibility
+<p>13.1. The Form of a Binary
+<p>13.2. What Binary Compatibility Is and Is Not
+<p>13.3. Evolution of Packages and Modules
+<p>13.4. Evolution of Classes
+<p>13.4.1. abstract Classes
+<p>13.4.2. sealed, non-sealed, and final Classes
+<p>13.4.2.1. sealed Classes
+<p>13.4.2.2. non-sealed Classes
+<p>13.4.2.3. final Classes
+<p>13.4.3. public Classes
+<p>13.4.4. Superclasses and Superinterfaces
+<p>13.4.5. Class Type Parameters
+<p>13.4.6. Class Body and Member Declarations
+<p>13.4.7. Access to Members and Constructors
+<p>13.4.8. Field Declarations
+<p>13.4.9. final Fields and static Constant Variables
+<p>13.4.10. static Fields
+<p>13.4.11. transient Fields
+<p>13.4.12. Method and Constructor Declarations
+<p>13.4.13. Method and Constructor Type Parameters
+<p>13.4.14. Method and Constructor Formal Parameters
+<p>13.4.15. Method Result Type
+<p>13.4.16. abstract Methods
+<p>13.4.17. final Methods
+<p>13.4.18. native Methods
+<p>13.4.19. static Methods
+<p>13.4.20. synchronized Methods
+<p>13.4.21. Method and Constructor Throws
+<p>13.4.22. Method and Constructor Body
+<p>13.4.23. Method and Constructor Overloading
+<p>13.4.24. Method Overriding
+<p>13.4.25. Static Initializers
+<p>13.4.26. Evolution of Enum Classes
+<p>13.4.27. Evolution of Record Classes
+<p>13.5. Evolution of Interfaces
+<p>13.5.1. public Interfaces
+<p>13.5.2. sealed and non-sealed Interfaces
+<p>13.5.3. Superinterfaces
+<p>13.5.4. Interface Members
+<p>13.5.5. Interface Type Parameters
+<p>13.5.6. Field Declarations
+<p>13.5.7. Interface Method Declarations
+<p>13.5.8. Annotation Interfaces
+<p>14. Blocks, Statements, and Patterns
+<p>14.1. Normal and Abrupt Completion of Statements
+<p>14.2. Blocks
+<p>14.3. Local Class and Interface Declarations
+<p>14.4. Local Variable Declarations
+<p>14.4.1. Local Variable Declarators and Types
+<p>14.4.2. Local Variable Declaration Statements
+<p>14.5. Statements
+<p>14.6. The Empty Statement
+<p>14.7. Labeled Statements
+<p>14.8. Expression Statements
+<p>14.9. The if Statement
+<p>14.9.1. The if-then Statement
+<p>14.9.2. The if-then-else Statement
+<p>14.10. The assert Statement
+<p>14.11. The switch Statement
+<p>14.11.1. Switch Blocks
+<p>14.11.1.1. Exhaustive Switch Blocks
+<p>14.11.1.2. Determining which Switch Label Applies at Run Time
+<p>14.11.2. The Switch Block of a switch Statement
+<p>14.11.3. Execution of a switch Statement
+<p>14.12. The while Statement
+<p>14.12.1. Abrupt Completion of while Statement
+<p>14.13. The do Statement
+<p>14.13.1. Abrupt Completion of do Statement
+<p>14.14. The for Statement
+<p>14.14.1. The basic for Statement
+<p>14.14.1.1. Initialization of for Statement
+<p>14.14.1.2. Iteration of for Statement
+<p>14.14.1.3. Abrupt Completion of for Statement
+<p>14.14.2. The enhanced for statement
+<p>14.15. The break Statement
+<p>14.16. The continue Statement
+<p>14.17. The return Statement
+<p>14.18. The throw Statement
+<p>14.19. The synchronized Statement
+<p>14.20. The try statement
+<p>14.20.1. Execution of try-catch
+<p>14.20.2. Execution of try-finally and try-catch-finally
+<p>14.20.3. try-with-resources
+<p>14.20.3.1. Basic try-with-resources
+<p>14.20.3.2. Extended try-with-resources
+<p>14.21. The yield Statement
+<p>14.22. Unreachable Statements
+<p>14.30. Patterns
+<p>14.30.1. Kinds of Patterns
+<p>14.30.2. Pattern Matching
+<p>14.30.3. Properties of Patterns
 15. Expressions
 15.1. Evaluation, Denotation, and Result
 15.2. Forms of Expressions
