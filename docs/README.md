@@ -69,175 +69,175 @@
     <p>4.12.4. final Variables
     <p>4.12.5. Initial Values of Variables
     <p>4.12.6. Types, Classes, and Interfaces
-<p>5. Conversions and Contexts
-<p>5.1. Kinds of Conversion
-<p>5.1.1. Identity Conversion
-<p>5.1.2. Widening Primitive Conversion
-<p>5.1.3. Narrowing Primitive Conversion
-<p>5.1.4. Widening and Narrowing Primitive Conversion
-<p>5.1.5. Widening Reference Conversion
-<p>5.1.6. Narrowing Reference Conversion
-<p>5.1.6.1. Allowed Narrowing Reference Conversion
-<p>5.1.6.2. Checked and Unchecked Narrowing Reference Conversions
-<p>5.1.6.3. Narrowing Reference Conversions at Run Time
-<p>5.1.7. Boxing Conversion
-<p>5.1.8. Unboxing Conversion
-<p>5.1.9. Unchecked Conversion
-<p>5.1.10. Capture Conversion
-<p>5.1.11. String Conversion
-<p>5.1.12. Forbidden Conversions
-<p>5.2. Assignment Contexts
-<p>5.3. Invocation Contexts
-<p>5.4. String Contexts
-<p>5.5. Casting Contexts
-<p>5.6. Numeric Contexts
-<p>5.7. Testing Contexts
-<p>6. Names
-<p>6.1. Declarations
-<p>6.2. Names and Identifiers
-<p>6.3. Scope of a Declaration
-<p>6.3.1. Scope for Pattern Variables in Expressions
-<p>6.3.1.1. Conditional-And Operator &&
-<p>6.3.1.2. Conditional-Or Operator ||
-<p>6.3.1.3. Logical Complement Operator !
-<p>6.3.1.4. Conditional Operator ? :
-<p>6.3.1.5. Pattern Match Operator instanceof
-<p>6.3.1.6. switch Expressions
-<p>6.3.1.7. Parenthesized Expressions
-<p>6.3.2. Scope for Pattern Variables in Statements
-<p>6.3.2.1. Blocks
-<p>6.3.2.2. if Statements
-<p>6.3.2.3. while Statements
-<p>6.3.2.4. do Statements
-<p>6.3.2.5. for Statements
-<p>6.3.2.6. switch Statements
-<p>6.3.2.7. Labeled Statements
-<p>6.3.3. Scope for Pattern Variables in case Labels
-<p>6.4. Shadowing and Obscuring
-<p>6.4.1. Shadowing
-<p>6.4.2. Obscuring
-<p>6.5. Determining the Meaning of a Name
-<p>6.5.1. Syntactic Classification of a Name According to Context
-<p>6.5.2. Reclassification of Contextually Ambiguous Names
-<p>6.5.3. Meaning of Module Names and Package Names
-<p>6.5.3.1. Simple Package Names
-<p>6.5.3.2. Qualified Package Names
-<p>6.5.4. Meaning of PackageOrTypeNames
-<p>6.5.4.1. Simple PackageOrTypeNames
-<p>6.5.4.2. Qualified PackageOrTypeNames
-<p>6.5.5. Meaning of Type Names
-<p>6.5.5.1. Simple Type Names
-<p>6.5.5.2. Qualified Type Names
-<p>6.5.6. Meaning of Expression Names
-<p>6.5.6.1. Simple Expression Names
-<p>6.5.6.2. Qualified Expression Names
-<p>6.5.7. Meaning of Method Names
-<p>6.5.7.1. Simple Method Names
-<p>6.6. Access Control
-<p>6.6.1. Determining Accessibility
-<p>6.6.2. Details on protected Access
-<p>6.6.2.1. Access to a protected Member
-<p>6.6.2.2. Access to a protected Constructor
-<p>6.7. Fully Qualified Names and Canonical Names
-<p>7. Packages and Modules
-<p>7.1. Package Members
-<p>7.2. Host Support for Modules and Packages
-<p>7.3. Compilation Units
-<p>7.4. Package Declarations
-<p>7.4.1. Named Packages
-<p>7.4.2. Unnamed Packages
-<p>7.4.3. Package Observability and Visibility
-<p>7.5. Import Declarations
-<p>7.5.1. Single-Type-Import Declarations
-<p>7.5.2. Type-Import-on-Demand Declarations
-<p>7.5.3. Single-Static-Import Declarations
-<p>7.5.4. Static-Import-on-Demand Declarations
-<p>7.6. Top Level Class and Interface Declarations
-<p>7.7. Module Declarations
-<p>7.7.1. Dependences
-<p>7.7.2. Exported and Opened Packages
-<p>7.7.3. Service Consumption
-<p>7.7.4. Service Provision
-<p>7.7.5. Unnamed Modules
-<p>7.7.6. Observability of a Module
-<p>8. Classes
-<p>8.1. Class Declarations
-<p>8.1.1. Class Modifiers
-<p>8.1.1.1. abstract Classes
-<p>8.1.1.2. sealed, non-sealed, and final Classes
-<p>8.1.1.3. strictfp Classes
-<p>8.1.1.4. static Classes
-<p>8.1.2. Generic Classes and Type Parameters
-<p>8.1.3. Inner Classes and Enclosing Instances
-<p>8.1.4. Superclasses and Subclasses
-<p>8.1.5. Superinterfaces
-<p>8.1.6. Permitted Direct Subclasses
-<p>8.1.7. Class Body and Member Declarations
-<p>8.2. Class Members
-<p>8.3. Field Declarations
-<p>8.3.1. Field Modifiers
-<p>8.3.1.1. static Fields
-<p>8.3.1.2. final Fields
-<p>8.3.1.3. transient Fields
-<p>8.3.1.4. volatile Fields
-<p>8.3.2. Field Initialization
-<p>8.3.3. Restrictions on Field References in Initializers
-<p>8.4. Method Declarations
-<p>8.4.1. Formal Parameters
-<p>8.4.2. Method Signature
-<p>8.4.3. Method Modifiers
-<p>8.4.3.1. abstract Methods
-<p>8.4.3.2. static Methods
-<p>8.4.3.3. final Methods
-<p>8.4.3.4. native Methods
-<p>8.4.3.5. strictfp Methods
-<p>8.4.3.6. synchronized Methods
-<p>8.4.4. Generic Methods
-v8.4.5. Method Result
-<p>8.4.6. Method Throws
-<p>8.4.7. Method Body
-<p>8.4.8. Inheritance, Overriding, and Hiding
-<p>8.4.8.1. Overriding (by Instance Methods)
-<p>8.4.8.2. Hiding (by Class Methods)
-<p>8.4.8.3. Requirements in Overriding and Hiding
-<p>8.4.8.4. Inheriting Methods with Override-Equivalent Signatures
-<p>8.4.9. Overloading
-<p>8.5. Member Class and Interface Declarations
-<p>8.6. Instance Initializers
-<p>8.7. Static Initializers
-<p>8.8. Constructor Declarations
-<p>8.8.1. Formal Parameters
-<p>8.8.2. Constructor Signature
-<p>8.8.3. Constructor Modifiers
-<p>8.8.4. Generic Constructors
-<p>8.8.5. Constructor Throws
-<p>8.8.6. The Type of a Constructor
-<p>8.8.7. Constructor Body
-<p>8.8.7.1. Explicit Constructor Invocations
-<p>8.8.8. Constructor Overloading
-<p>8.8.9. Default Constructor
-<p>8.8.10. Preventing Instantiation of a Class
-<p>8.9. Enum Classes
-<p>8.9.1. Enum Constants
-<p>8.9.2. Enum Body Declarations
-<p>8.9.3. Enum Members
-<p>8.10. Record Classes
-<p>8.10.1. Record Components
-<p>8.10.2. Record Body Declarations
-<p>8.10.3. Record Members
-<p>8.10.4. Record Constructor Declarations
-<p>8.10.4.1. Normal Canonical Constructors
-<p>8.10.4.2. Compact Canonical Constructors
-<p>9. Interfaces
-<p>9.1. Interface Declarations
-<p>9.1.1. Interface Modifiers
-<p>9.1.1.1. abstract Interfaces
-<p>9.1.1.2. strictfp Interfaces
-<p>9.1.1.3. static Interfaces
-<p>9.1.1.4. sealed and non-sealed Interfaces
-<p>9.1.2. Generic Interfaces and Type Parameters
-<p>9.1.3. Superinterfaces and Subinterfaces
-<p>9.1.4. Permitted Direct Subclasses and Subinterfaces
+    <p>5. Conversions and Contexts
+    <p>5.1. Kinds of Conversion
+    <p>5.1.1. Identity Conversion
+    <p>5.1.2. Widening Primitive Conversion
+    <p>5.1.3. Narrowing Primitive Conversion
+    <p>5.1.4. Widening and Narrowing Primitive Conversion
+    <p>5.1.5. Widening Reference Conversion
+    <p>5.1.6. Narrowing Reference Conversion
+    <p>5.1.6.1. Allowed Narrowing Reference Conversion
+    <p>5.1.6.2. Checked and Unchecked Narrowing Reference Conversions
+    <p>5.1.6.3. Narrowing Reference Conversions at Run Time
+    <p>5.1.7. Boxing Conversion
+    <p>5.1.8. Unboxing Conversion
+    <p>5.1.9. Unchecked Conversion
+    <p>5.1.10. Capture Conversion
+    <p>5.1.11. String Conversion
+    <p>5.1.12. Forbidden Conversions
+    <p>5.2. Assignment Contexts
+    <p>5.3. Invocation Contexts
+    <p>5.4. String Contexts
+    <p>5.5. Casting Contexts
+    <p>5.6. Numeric Contexts
+    <p>5.7. Testing Contexts
+    <p>6. Names
+    <p>6.1. Declarations
+    <p>6.2. Names and Identifiers
+    <p>6.3. Scope of a Declaration
+    <p>6.3.1. Scope for Pattern Variables in Expressions
+    <p>6.3.1.1. Conditional-And Operator &&
+    <p>6.3.1.2. Conditional-Or Operator ||
+    <p>6.3.1.3. Logical Complement Operator !
+    <p>6.3.1.4. Conditional Operator ? :
+    <p>6.3.1.5. Pattern Match Operator instanceof
+    <p>6.3.1.6. switch Expressions
+    <p>6.3.1.7. Parenthesized Expressions
+    <p>6.3.2. Scope for Pattern Variables in Statements
+    <p>6.3.2.1. Blocks
+    <p>6.3.2.2. if Statements
+    <p>6.3.2.3. while Statements
+    <p>6.3.2.4. do Statements
+    <p>6.3.2.5. for Statements
+    <p>6.3.2.6. switch Statements
+    <p>6.3.2.7. Labeled Statements
+    <p>6.3.3. Scope for Pattern Variables in case Labels
+    <p>6.4. Shadowing and Obscuring
+    <p>6.4.1. Shadowing
+    <p>6.4.2. Obscuring
+    <p>6.5. Determining the Meaning of a Name
+    <p>6.5.1. Syntactic Classification of a Name According to Context
+    <p>6.5.2. Reclassification of Contextually Ambiguous Names
+    <p>6.5.3. Meaning of Module Names and Package Names
+    <p>6.5.3.1. Simple Package Names
+    <p>6.5.3.2. Qualified Package Names
+    <p>6.5.4. Meaning of PackageOrTypeNames
+    <p>6.5.4.1. Simple PackageOrTypeNames
+    <p>6.5.4.2. Qualified PackageOrTypeNames
+    <p>6.5.5. Meaning of Type Names
+    <p>6.5.5.1. Simple Type Names
+    <p>6.5.5.2. Qualified Type Names
+    <p>6.5.6. Meaning of Expression Names
+    <p>6.5.6.1. Simple Expression Names
+    <p>6.5.6.2. Qualified Expression Names
+    <p>6.5.7. Meaning of Method Names
+    <p>6.5.7.1. Simple Method Names
+    <p>6.6. Access Control
+    <p>6.6.1. Determining Accessibility
+    <p>6.6.2. Details on protected Access
+    <p>6.6.2.1. Access to a protected Member
+    <p>6.6.2.2. Access to a protected Constructor
+    <p>6.7. Fully Qualified Names and Canonical Names
+    <p>7. Packages and Modules
+    <p>7.1. Package Members
+    <p>7.2. Host Support for Modules and Packages
+    <p>7.3. Compilation Units
+    <p>7.4. Package Declarations
+    <p>7.4.1. Named Packages
+    <p>7.4.2. Unnamed Packages
+    <p>7.4.3. Package Observability and Visibility
+    <p>7.5. Import Declarations
+    <p>7.5.1. Single-Type-Import Declarations
+    <p>7.5.2. Type-Import-on-Demand Declarations
+    <p>7.5.3. Single-Static-Import Declarations
+    <p>7.5.4. Static-Import-on-Demand Declarations
+    <p>7.6. Top Level Class and Interface Declarations
+    <p>7.7. Module Declarations
+    <p>7.7.1. Dependences
+    <p>7.7.2. Exported and Opened Packages
+    <p>7.7.3. Service Consumption
+    <p>7.7.4. Service Provision
+    <p>7.7.5. Unnamed Modules
+    <p>7.7.6. Observability of a Module
+    <p>8. Classes
+    <p>8.1. Class Declarations
+    <p>8.1.1. Class Modifiers
+    <p>8.1.1.1. abstract Classes
+    <p>8.1.1.2. sealed, non-sealed, and final Classes
+    <p>8.1.1.3. strictfp Classes
+    <p>8.1.1.4. static Classes
+    <p>8.1.2. Generic Classes and Type Parameters
+    <p>8.1.3. Inner Classes and Enclosing Instances
+    <p>8.1.4. Superclasses and Subclasses
+    <p>8.1.5. Superinterfaces
+    <p>8.1.6. Permitted Direct Subclasses
+    <p>8.1.7. Class Body and Member Declarations
+    <p>8.2. Class Members
+    <p>8.3. Field Declarations
+    <p>8.3.1. Field Modifiers
+    <p>8.3.1.1. static Fields
+    <p>8.3.1.2. final Fields
+    <p>8.3.1.3. transient Fields
+    <p>8.3.1.4. volatile Fields
+    <p>8.3.2. Field Initialization
+    <p>8.3.3. Restrictions on Field References in Initializers
+    <p>8.4. Method Declarations
+    <p>8.4.1. Formal Parameters
+    <p>8.4.2. Method Signature
+    <p>8.4.3. Method Modifiers
+    <p>8.4.3.1. abstract Methods
+    <p>8.4.3.2. static Methods
+    <p>8.4.3.3. final Methods
+    <p>8.4.3.4. native Methods
+    <p>8.4.3.5. strictfp Methods
+    <p>8.4.3.6. synchronized Methods
+    <p>8.4.4. Generic Methods
+    v8.4.5. Method Result
+    <p>8.4.6. Method Throws
+    <p>8.4.7. Method Body
+    <p>8.4.8. Inheritance, Overriding, and Hiding
+    <p>8.4.8.1. Overriding (by Instance Methods)
+    <p>8.4.8.2. Hiding (by Class Methods)
+    <p>8.4.8.3. Requirements in Overriding and Hiding
+    <p>8.4.8.4. Inheriting Methods with Override-Equivalent Signatures
+    <p>8.4.9. Overloading
+    <p>8.5. Member Class and Interface Declarations
+    <p>8.6. Instance Initializers
+    <p>8.7. Static Initializers
+    <p>8.8. Constructor Declarations
+    <p>8.8.1. Formal Parameters
+    <p>8.8.2. Constructor Signature
+    <p>8.8.3. Constructor Modifiers
+    <p>8.8.4. Generic Constructors
+    <p>8.8.5. Constructor Throws
+    <p>8.8.6. The Type of a Constructor
+    <p>8.8.7. Constructor Body
+    <p>8.8.7.1. Explicit Constructor Invocations
+    <p>8.8.8. Constructor Overloading
+    <p>8.8.9. Default Constructor
+    <p>8.8.10. Preventing Instantiation of a Class
+    <p>8.9. Enum Classes
+    <p>8.9.1. Enum Constants
+    <p>8.9.2. Enum Body Declarations
+    <p>8.9.3. Enum Members
+    <p>8.10. Record Classes
+    <p>8.10.1. Record Components
+    <p>8.10.2. Record Body Declarations
+    <p>8.10.3. Record Members
+    <p>8.10.4. Record Constructor Declarations
+    <p>8.10.4.1. Normal Canonical Constructors
+    <p>8.10.4.2. Compact Canonical Constructors
+    <p>9. Interfaces
+    <p>9.1. Interface Declarations
+    <p>9.1.1. Interface Modifiers
+    <p>9.1.1.1. abstract Interfaces
+    <p>9.1.1.2. strictfp Interfaces
+    <p>9.1.1.3. static Interfaces
+    <p>9.1.1.4. sealed and non-sealed Interfaces
+    <p>9.1.2. Generic Interfaces and Type Parameters
+    <p>9.1.3. Superinterfaces and Subinterfaces
+    <p>9.1.4. Permitted Direct Subclasses and Subinterfaces
 <p>9.1.5. Interface Body and Member Declarations
 <p>9.2. Interface Members
 <p>9.3. Field (Constant) Declarations
@@ -596,3 +596,4 @@ v8.4.5. Method Result
     <p>19. Syntax
   </body>
 </html>
+    
