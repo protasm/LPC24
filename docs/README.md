@@ -1,74 +1,74 @@
 <html>
   <body>
     <p>1. Introduction
-<p>1.1. Organization of the Specification
-<p>1.2. Example Programs
-<p>1.3. Notation
-<p>1.4. Relationship to Predefined Classes and Interfaces
-<p>1.5. Preview Features
-<p>1.6. Feedback
-<p>1.7. References
-<p>2. Grammars
-<p>2.1. Context-Free Grammars
-<p>2.2. The Lexical Grammar
-<p>2.3. The Syntactic Grammar
-<p>2.4. Grammar Notation
-<p>3. Lexical Structure
-<p>3.1. Unicode
-<p>3.2. Lexical Translations
-<p>3.3. Unicode Escapes
-<p>3.4. Line Terminators
-<p>3.5. Input Elements and Tokens
-<p>3.6. White Space
-<p>3.7. Comments
-<p>3.8. Identifiers
-<p>3.9. Keywords
-<p>3.10. Literals
-<p>3.10.1. Integer Literals
-<p>3.10.2. Floating-Point Literals
-<p>3.10.3. Boolean Literals
-<p>3.10.4. Character Literals
-<p>3.10.5. String Literals
-<p>3.10.6. Text Blocks
-<p>3.10.7. Escape Sequences
-<p>3.10.8. The Null Literal
-<p>3.11. Separators
-<p>3.12. Operators
-<p>4. Types, Values, and Variables
-<p>4.1. The Kinds of Types and Values
-<p>4.2. Primitive Types and Values
-<p>4.2.1. Integral Types and Values
-<p>4.2.2. Integer Operations
-<p>4.2.3. Floating-Point Types and Values
-<p>4.2.4. Floating-Point Operations
-<p>4.2.5. The boolean Type and boolean Values
-<p>4.3. Reference Types and Values
-<p>4.3.1. Objects
-<p>4.3.2. The Class Object
-<p>4.3.3. The Class String
-<p>4.3.4. When Reference Types Are the Same
-<p>4.4. Type Variables
-<p>4.5. Parameterized Types
-<p>4.5.1. Type Arguments of Parameterized Types
-<p>4.5.2. Members and Constructors of Parameterized Types
-<p>4.6. Type Erasure
-<p>4.7. Reifiable Types
-<p>4.8. Raw Types
-<p>4.9. Intersection Types
-<p>4.10. Subtyping
-<p>4.10.1. Subtyping among Primitive Types
-<p>4.10.2. Subtyping among Class and Interface Types
-<p>4.10.3. Subtyping among Array Types
-<p>4.10.4. Least Upper Bound
-<p>4.10.5. Type Projections
-<p>4.11. Where Types Are Used
-<p>4.12. Variables
-<p>4.12.1. Variables of Primitive Type
-<p>4.12.2. Variables of Reference Type
-<p>4.12.3. Kinds of Variables
-<p>4.12.4. final Variables
-<p>4.12.5. Initial Values of Variables
-<p>4.12.6. Types, Classes, and Interfaces
+    <p>1.1. Organization of the Specification
+    <p>1.2. Example Programs
+    <p>1.3. Notation
+    <p>1.4. Relationship to Predefined Classes and Interfaces
+    <p>1.5. Preview Features
+    <p>1.6. Feedback
+    <p>1.7. References
+    <p>2. Grammars
+    <p>2.1. Context-Free Grammars
+    <p>2.2. The Lexical Grammar
+    <p>2.3. The Syntactic Grammar
+    <p>2.4. Grammar Notation
+    <p>3. Lexical Structure
+    <p>3.1. Unicode
+    <p>3.2. Lexical Translations
+    <p>3.3. Unicode Escapes
+    <p>3.4. Line Terminators
+    <p>3.5. Input Elements and Tokens
+    <p>3.6. White Space
+    <p>3.7. Comments
+    <p>3.8. Identifiers
+    <p>3.9. Keywords
+    <p>3.10. Literals
+    <p>3.10.1. Integer Literals
+    <p>3.10.2. Floating-Point Literals
+    <p>3.10.3. Boolean Literals
+    <p>3.10.4. Character Literals
+    <p>3.10.5. String Literals
+    <p>3.10.6. Text Blocks
+    <p>3.10.7. Escape Sequences
+    <p>3.10.8. The Null Literal
+    <p>3.11. Separators
+    <p>3.12. Operators
+    <p>4. Types, Values, and Variables
+    <p>4.1. The Kinds of Types and Values
+    <p>4.2. Primitive Types and Values
+    <p>4.2.1. Integral Types and Values
+    <p>4.2.2. Integer Operations
+    <p>4.2.3. Floating-Point Types and Values
+    <p>4.2.4. Floating-Point Operations
+    <p>4.2.5. The boolean Type and boolean Values
+    <p>4.3. Reference Types and Values
+    <p>4.3.1. Objects
+    <p>4.3.2. The Class Object
+    <p>4.3.3. The Class String
+    <p>4.3.4. When Reference Types Are the Same
+    <p>4.4. Type Variables
+    <p>4.5. Parameterized Types
+    <p>4.5.1. Type Arguments of Parameterized Types
+    <p>4.5.2. Members and Constructors of Parameterized Types
+    <p>4.6. Type Erasure
+    <p>4.7. Reifiable Types
+    <p>4.8. Raw Types
+    <p>4.9. Intersection Types
+    <p>4.10. Subtyping
+    <p>4.10.1. Subtyping among Primitive Types
+    <p>4.10.2. Subtyping among Class and Interface Types
+    <p>4.10.3. Subtyping among Array Types
+    <p>4.10.4. Least Upper Bound
+    <p>4.10.5. Type Projections
+    <p>4.11. Where Types Are Used
+    <p>4.12. Variables
+    <p>4.12.1. Variables of Primitive Type
+    <p>4.12.2. Variables of Reference Type
+    <p>4.12.3. Kinds of Variables
+    <p>4.12.4. final Variables
+    <p>4.12.5. Initial Values of Variables
+    <p>4.12.6. Types, Classes, and Interfaces
 <p>5. Conversions and Contexts
 <p>5.1. Kinds of Conversion
 <p>5.1.1. Identity Conversion
