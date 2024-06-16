@@ -282,16 +282,16 @@ v8.4.5. Method Result
 <p>10.7. Array Members
 <p>10.8. Class Objects for Arrays
 <p>10.9. An Array of Characters Is Not a String
-11. Exceptions
-11.1. The Kinds and Causes of Exceptions
-11.1.1. The Kinds of Exceptions
-11.1.2. The Causes of Exceptions
-11.1.3. Asynchronous Exceptions
-11.2. Compile-Time Checking of Exceptions
-11.2.1. Exception Analysis of Expressions
-11.2.2. Exception Analysis of Statements
-11.2.3. Exception Checking
-11.3. Run-Time Handling of an Exception
+<p>11. Exceptions
+<p>11.1. The Kinds and Causes of Exceptions
+<p>11.1.1. The Kinds of Exceptions
+<p>11.1.2. The Causes of Exceptions
+<p>11.1.3. Asynchronous Exceptions
+<p>11.2. Compile-Time Checking of Exceptions
+<p>11.2.1. Exception Analysis of Expressions
+<p>11.2.2. Exception Analysis of Statements
+<p>11.2.3. Exception Checking
+<p>11.3. Run-Time Handling of an Exception
 12. Execution
 12.1. Java Virtual Machine Startup
 12.1.1. Load the Class Test
