@@ -1,6 +1,6 @@
 <html>
   <body>
-    <p>1. Introduction</p>
+    <p>1. Introduction
 <p>1.1. Organization of the Specification
 <p>1.2. Example Programs
 <p>1.3. Notation
@@ -358,241 +358,241 @@ v8.4.5. Method Result
 <p>13.5.6. Field Declarations
 <p>13.5.7. Interface Method Declarations
 <p>13.5.8. Annotation Interfaces
-<p>14. Blocks, Statements, and Patterns
-<p>14.1. Normal and Abrupt Completion of Statements
-<p>14.2. Blocks
-<p>14.3. Local Class and Interface Declarations
-<p>14.4. Local Variable Declarations
-<p>14.4.1. Local Variable Declarators and Types
-<p>14.4.2. Local Variable Declaration Statements
-<p>14.5. Statements
-<p>14.6. The Empty Statement
-<p>14.7. Labeled Statements
-<p>14.8. Expression Statements
-<p>14.9. The if Statement
-<p>14.9.1. The if-then Statement
-<p>14.9.2. The if-then-else Statement
-<p>14.10. The assert Statement
-<p>14.11. The switch Statement
-<p>14.11.1. Switch Blocks
-<p>14.11.1.1. Exhaustive Switch Blocks
-<p>14.11.1.2. Determining which Switch Label Applies at Run Time
-<p>14.11.2. The Switch Block of a switch Statement
-<p>14.11.3. Execution of a switch Statement
-<p>14.12. The while Statement
-<p>14.12.1. Abrupt Completion of while Statement
-<p>14.13. The do Statement
-<p>14.13.1. Abrupt Completion of do Statement
-<p>14.14. The for Statement
-<p>14.14.1. The basic for Statement
-<p>14.14.1.1. Initialization of for Statement
-<p>14.14.1.2. Iteration of for Statement
-<p>14.14.1.3. Abrupt Completion of for Statement
-<p>14.14.2. The enhanced for statement
-<p>14.15. The break Statement
-<p>14.16. The continue Statement
-<p>14.17. The return Statement
-<p>14.18. The throw Statement
-<p>14.19. The synchronized Statement
-<p>14.20. The try statement
-<p>14.20.1. Execution of try-catch
-<p>14.20.2. Execution of try-finally and try-catch-finally
-<p>14.20.3. try-with-resources
-<p>14.20.3.1. Basic try-with-resources
-<p>14.20.3.2. Extended try-with-resources
-<p>14.21. The yield Statement
-<p>14.22. Unreachable Statements
-<p>14.30. Patterns
-<p>14.30.1. Kinds of Patterns
-<p>14.30.2. Pattern Matching
-<p>14.30.3. Properties of Patterns
-15. Expressions
-15.1. Evaluation, Denotation, and Result
-15.2. Forms of Expressions
-15.3. Type of an Expression
-15.4. Floating-point Expressions
-15.5. Expressions and Run-Time Checks
-15.6. Normal and Abrupt Completion of Evaluation
-15.7. Evaluation Order
-15.7.1. Evaluate Left-Hand Operand First
-15.7.2. Evaluate Operands before Operation
-15.7.3. Evaluation Respects Parentheses and Precedence
-15.7.4. Argument Lists are Evaluated Left-to-Right
-15.7.5. Evaluation Order for Other Expressions
-15.8. Primary Expressions
-15.8.1. Lexical Literals
-15.8.2. Class Literals
-15.8.3. this
-15.8.4. Qualified this
-15.8.5. Parenthesized Expressions
-15.9. Class Instance Creation Expressions
-15.9.1. Determining the Class being Instantiated
-15.9.2. Determining Enclosing Instances
-15.9.3. Choosing the Constructor and its Arguments
-15.9.4. Run-Time Evaluation of Class Instance Creation Expressions
-15.9.5. Anonymous Class Declarations
-15.9.5.1. Anonymous Constructors
-15.10. Array Creation and Access Expressions
-15.10.1. Array Creation Expressions
-15.10.2. Run-Time Evaluation of Array Creation Expressions
-15.10.3. Array Access Expressions
-15.10.4. Run-Time Evaluation of Array Access Expressions
-15.11. Field Access Expressions
-15.11.1. Field Access Using a Primary
-15.11.2. Accessing Superclass Members using super
-15.12. Method Invocation Expressions
-15.12.1. Compile-Time Step 1: Determine Type to Search
-15.12.2. Compile-Time Step 2: Determine Method Signature
-15.12.2.1. Identify Potentially Applicable Methods
-15.12.2.2. Phase 1: Identify Matching Arity Methods Applicable by Strict Invocation
-15.12.2.3. Phase 2: Identify Matching Arity Methods Applicable by Loose Invocation
-15.12.2.4. Phase 3: Identify Methods Applicable by Variable Arity Invocation
-15.12.2.5. Choosing the Most Specific Method
-15.12.2.6. Method Invocation Type
-15.12.3. Compile-Time Step 3: Is the Chosen Method Appropriate?
-15.12.4. Run-Time Evaluation of Method Invocation
-15.12.4.1. Compute Target Reference (If Necessary)
-15.12.4.2. Evaluate Arguments
-15.12.4.3. Check Accessibility of Type and Method
-15.12.4.4. Locate Method to Invoke
-15.12.4.5. Create Frame, Synchronize, Transfer Control
-15.13. Method Reference Expressions
-15.13.1. Compile-Time Declaration of a Method Reference
-15.13.2. Type of a Method Reference
-15.13.3. Run-Time Evaluation of Method References
-15.14. Postfix Expressions
-15.14.1. Expression Names
-15.14.2. Postfix Increment Operator ++
-15.14.3. Postfix Decrement Operator --
-15.15. Unary Operators
-15.15.1. Prefix Increment Operator ++
-15.15.2. Prefix Decrement Operator --
-15.15.3. Unary Plus Operator +
-15.15.4. Unary Minus Operator -
-15.15.5. Bitwise Complement Operator ~
-15.15.6. Logical Complement Operator !
-15.16. Cast Expressions
-15.17. Multiplicative Operators
-15.17.1. Multiplication Operator *
-15.17.2. Division Operator /
-15.17.3. Remainder Operator %
-15.18. Additive Operators
-15.18.1. String Concatenation Operator +
-15.18.2. Additive Operators (+ and -) for Numeric Types
-15.19. Shift Operators
-15.20. Relational Operators
-15.20.1. Numerical Comparison Operators <, <=, >, and >=
-15.20.2. The instanceof Operator
-15.21. Equality Operators
-15.21.1. Numerical Equality Operators == and !=
-15.21.2. Boolean Equality Operators == and !=
-15.21.3. Reference Equality Operators == and !=
-15.22. Bitwise and Logical Operators
-15.22.1. Integer Bitwise Operators &, ^, and |
-15.22.2. Boolean Logical Operators &, ^, and |
-15.23. Conditional-And Operator &&
-15.24. Conditional-Or Operator ||
-15.25. Conditional Operator ? :
-15.25.1. Boolean Conditional Expressions
-15.25.2. Numeric Conditional Expressions
-15.25.3. Reference Conditional Expressions
-15.26. Assignment Operators
-15.26.1. Simple Assignment Operator =
-15.26.2. Compound Assignment Operators
-15.27. Lambda Expressions
-15.27.1. Lambda Parameters
-15.27.2. Lambda Body
-15.27.3. Type of a Lambda Expression
-15.27.4. Run-Time Evaluation of Lambda Expressions
-15.28. switch Expressions
-15.28.1. The Switch Block of a switch Expression
-15.28.2. Run-Time Evaluation of switch Expressions
-15.29. Constant Expressions
-16. Definite Assignment
-16.1. Definite Assignment and Expressions
-16.1.1. Boolean Constant Expressions
-16.1.2. Conditional-And Operator &&
-16.1.3. Conditional-Or Operator ||
-16.1.4. Logical Complement Operator !
-16.1.5. Conditional Operator ? :
-16.1.6. switch Expressions
-16.1.7. Other Expressions of Type boolean
-16.1.8. Assignment Expressions
-16.1.9. Operators ++ and --
-16.1.10. Other Expressions
-16.2. Definite Assignment and Statements
-16.2.1. Empty Statements
-16.2.2. Blocks
-16.2.3. Local Class and Interface Declarations
-16.2.4. Local Variable Declaration Statements
-16.2.5. Labeled Statements
-16.2.6. Expression Statements
-16.2.7. if Statements
-16.2.8. assert Statements
-16.2.9. switch Statements
-16.2.10. while Statements
-16.2.11. do Statements
-16.2.12. for Statements
-16.2.12.1. Initialization Part of for Statement
-16.2.12.2. Incrementation Part of for Statement
-16.2.13. break, yield, continue, return, and throw Statements
-16.2.14. synchronized Statements
-16.2.15. try Statements
-16.3. Definite Assignment and Parameters
-16.4. Definite Assignment and Array Initializers
-16.5. Definite Assignment and Enum Constants
-16.6. Definite Assignment and Anonymous Classes
-16.7. Definite Assignment and Member Classes and Interfaces
-16.8. Definite Assignment and Static Initializers
-16.9. Definite Assignment, Constructors, and Instance Initializers
-17. Threads and Locks
-17.1. Synchronization
-17.2. Wait Sets and Notification
-17.2.1. Wait
-17.2.2. Notification
-17.2.3. Interruptions
-17.2.4. Interactions of Waits, Notification, and Interruption
-<p>17.3. Sleep and Yield
-<p>17.4. Memory Model
-<p>17.4.1. Shared Variables
-<p>17.4.2. Actions
-<p>17.4.3. Programs and Program Order
-<p>17.4.4. Synchronization Order
-<p>17.4.5. Happens-before Order
-<p>17.4.6. Executions
-<p>17.4.7. Well-Formed Executions
-<p>17.4.8. Executions and Causality Requirements
-<p>17.4.9. Observable Behavior and Nonterminating Executions
-<p>17.5. final Field Semantics
-<p>17.5.1. Semantics of final Fields
-<p>17.5.2. Reading final Fields During Construction
-<p>17.5.3. Subsequent Modification of final Fields
-<p>17.5.4. Write-Protected Fields
-<p>17.6. Word Tearing
-<p>17.7. Non-Atomic Treatment of double and long
-<p>18. Type Inference
-<p>18.1. Concepts and Notation
-<p>18.1.1. Inference Variables
-<p>18.1.2. Constraint Formulas
-<p>18.1.3. Bounds
-<p>18.2. Reduction
-<p>18.2.1. Expression Compatibility Constraints
-<p>18.2.2. Type Compatibility Constraints
-<p>18.2.3. Subtyping Constraints
-<p>18.2.4. Type Equality Constraints
-<p>18.2.5. Checked Exception Constraints
-<p>18.3. Incorporation
-<p>18.3.1. Complementary Pairs of Bounds
-<p>18.3.2. Bounds Involving Capture Conversion
-<p>18.4. Resolution
-<p>18.5. Uses of Inference
-<p>18.5.1. Invocation Applicability Inference
-<p>18.5.2. Invocation Type Inference
-<p>18.5.2.1. Poly Method Invocation Compatibility
-<p>18.5.2.2. Additional Argument Constraints
-<p>18.5.3. Functional Interface Parameterization Inference
-<p>18.5.4. More Specific Method Inference
-<p>18.5.5. Record Pattern Type Inference
-<p>19. Syntax
+    <p>14. Blocks, Statements, and Patterns
+    <p>14.1. Normal and Abrupt Completion of Statements
+    <p>14.2. Blocks
+    <p>14.3. Local Class and Interface Declarations
+    <p>14.4. Local Variable Declarations
+    <p>14.4.1. Local Variable Declarators and Types
+    <p>14.4.2. Local Variable Declaration Statements
+    <p>14.5. Statements
+    <p>14.6. The Empty Statement
+    <p>14.7. Labeled Statements
+    <p>14.8. Expression Statements
+    <p>14.9. The if Statement
+    <p>14.9.1. The if-then Statement
+    <p>14.9.2. The if-then-else Statement
+    <p>14.10. The assert Statement
+    <p>14.11. The switch Statement
+    <p>14.11.1. Switch Blocks
+    <p>14.11.1.1. Exhaustive Switch Blocks
+    <p>14.11.1.2. Determining which Switch Label Applies at Run Time
+    <p>14.11.2. The Switch Block of a switch Statement
+    <p>14.11.3. Execution of a switch Statement
+    <p>14.12. The while Statement
+    <p>14.12.1. Abrupt Completion of while Statement
+    <p>14.13. The do Statement
+    <p>14.13.1. Abrupt Completion of do Statement
+    <p>14.14. The for Statement
+    <p>14.14.1. The basic for Statement
+    <p>14.14.1.1. Initialization of for Statement
+    <p>14.14.1.2. Iteration of for Statement
+    <p>14.14.1.3. Abrupt Completion of for Statement
+    <p>14.14.2. The enhanced for statement
+    <p>14.15. The break Statement
+    <p>14.16. The continue Statement
+    <p>14.17. The return Statement
+    <p>14.18. The throw Statement
+    <p>14.19. The synchronized Statement
+    <p>14.20. The try statement
+    <p>14.20.1. Execution of try-catch
+    <p>14.20.2. Execution of try-finally and try-catch-finally
+    <p>14.20.3. try-with-resources
+    <p>14.20.3.1. Basic try-with-resources
+    <p>14.20.3.2. Extended try-with-resources
+    <p>14.21. The yield Statement
+    <p>14.22. Unreachable Statements
+    <p>14.30. Patterns
+    <p>14.30.1. Kinds of Patterns
+    <p>14.30.2. Pattern Matching
+    <p>14.30.3. Properties of Patterns
+    <p>15. Expressions
+    <p>15.1. Evaluation, Denotation, and Result
+    <p>15.2. Forms of Expressions
+    <p>15.3. Type of an Expression
+    <p>15.4. Floating-point Expressions
+    <p>15.5. Expressions and Run-Time Checks
+    <p>15.6. Normal and Abrupt Completion of Evaluation
+    <p>15.7. Evaluation Order
+    <p>15.7.1. Evaluate Left-Hand Operand First
+    <p>15.7.2. Evaluate Operands before Operation
+    <p>15.7.3. Evaluation Respects Parentheses and Precedence
+    <p>15.7.4. Argument Lists are Evaluated Left-to-Right
+    <p>15.7.5. Evaluation Order for Other Expressions
+    <p>15.8. Primary Expressions
+    <p>15.8.1. Lexical Literals
+    <p>15.8.2. Class Literals
+    <p>15.8.3. this
+    <p>15.8.4. Qualified this
+    <p>15.8.5. Parenthesized Expressions
+    <p>15.9. Class Instance Creation Expressions
+    <p>15.9.1. Determining the Class being Instantiated
+    <p>15.9.2. Determining Enclosing Instances
+    <p>15.9.3. Choosing the Constructor and its Arguments
+    <p>15.9.4. Run-Time Evaluation of Class Instance Creation Expressions
+    <p>15.9.5. Anonymous Class Declarations
+    <p>15.9.5.1. Anonymous Constructors
+    <p>15.10. Array Creation and Access Expressions
+    <p>15.10.1. Array Creation Expressions
+    <p>15.10.2. Run-Time Evaluation of Array Creation Expressions
+    <p>15.10.3. Array Access Expressions
+    <p>15.10.4. Run-Time Evaluation of Array Access Expressions
+    <p>15.11. Field Access Expressions
+    <p>15.11.1. Field Access Using a Primary
+    <p>15.11.2. Accessing Superclass Members using super
+    <p>15.12. Method Invocation Expressions
+    <p>15.12.1. Compile-Time Step 1: Determine Type to Search
+    <p>15.12.2. Compile-Time Step 2: Determine Method Signature
+    <p>15.12.2.1. Identify Potentially Applicable Methods
+    <p>15.12.2.2. Phase 1: Identify Matching Arity Methods Applicable by Strict Invocation
+    <p>15.12.2.3. Phase 2: Identify Matching Arity Methods Applicable by Loose Invocation
+    <p>15.12.2.4. Phase 3: Identify Methods Applicable by Variable Arity Invocation
+    <p>15.12.2.5. Choosing the Most Specific Method
+    <p>15.12.2.6. Method Invocation Type
+    <p>15.12.3. Compile-Time Step 3: Is the Chosen Method Appropriate?
+    <p>15.12.4. Run-Time Evaluation of Method Invocation
+    <p>15.12.4.1. Compute Target Reference (If Necessary)
+    <p>15.12.4.2. Evaluate Arguments
+    <p>15.12.4.3. Check Accessibility of Type and Method
+    <p>15.12.4.4. Locate Method to Invoke
+    <p>15.12.4.5. Create Frame, Synchronize, Transfer Control
+    <p>15.13. Method Reference Expressions
+    <p>15.13.1. Compile-Time Declaration of a Method Reference
+    <p>15.13.2. Type of a Method Reference
+    <p>15.13.3. Run-Time Evaluation of Method References
+    <p>15.14. Postfix Expressions
+    <p>15.14.1. Expression Names
+    <p>15.14.2. Postfix Increment Operator ++
+    <p>15.14.3. Postfix Decrement Operator --
+    <p>15.15. Unary Operators
+    <p>15.15.1. Prefix Increment Operator ++
+    <p>15.15.2. Prefix Decrement Operator --
+    <p>15.15.3. Unary Plus Operator +
+    <p>15.15.4. Unary Minus Operator -
+    <p>15.15.5. Bitwise Complement Operator ~
+    <p>15.15.6. Logical Complement Operator !
+    <p>15.16. Cast Expressions
+    <p>15.17. Multiplicative Operators
+    <p>15.17.1. Multiplication Operator *
+    <p>15.17.2. Division Operator /
+    <p>15.17.3. Remainder Operator %
+    <p>15.18. Additive Operators
+    <p>15.18.1. String Concatenation Operator +
+    <p>15.18.2. Additive Operators (+ and -) for Numeric Types
+    <p>15.19. Shift Operators
+    <p>15.20. Relational Operators
+    <p>15.20.1. Numerical Comparison Operators <, <=, >, and >=
+    <p>15.20.2. The instanceof Operator
+    <p>15.21. Equality Operators
+    <p>15.21.1. Numerical Equality Operators == and !=
+    <p>15.21.2. Boolean Equality Operators == and !=
+    <p>15.21.3. Reference Equality Operators == and !=
+    <p>15.22. Bitwise and Logical Operators
+    <p>15.22.1. Integer Bitwise Operators &, ^, and |
+    <p>15.22.2. Boolean Logical Operators &, ^, and |
+    <p>15.23. Conditional-And Operator &&
+    <p>15.24. Conditional-Or Operator ||
+    <p>15.25. Conditional Operator ? :
+    <p>15.25.1. Boolean Conditional Expressions
+    <p>15.25.2. Numeric Conditional Expressions
+    <p>15.25.3. Reference Conditional Expressions
+    <p>15.26. Assignment Operators
+    <p>15.26.1. Simple Assignment Operator =
+    <p>15.26.2. Compound Assignment Operators
+    <p>15.27. Lambda Expressions
+    <p>15.27.1. Lambda Parameters
+    <p>15.27.2. Lambda Body
+    <p>15.27.3. Type of a Lambda Expression
+    <p>15.27.4. Run-Time Evaluation of Lambda Expressions
+    <p>15.28. switch Expressions
+    <p>15.28.1. The Switch Block of a switch Expression
+    <p>15.28.2. Run-Time Evaluation of switch Expressions
+    <p>15.29. Constant Expressions
+    <p>16. Definite Assignment
+    <p>16.1. Definite Assignment and Expressions
+    <p>16.1.1. Boolean Constant Expressions
+    <p>16.1.2. Conditional-And Operator &&
+    <p>16.1.3. Conditional-Or Operator ||
+    <p>16.1.4. Logical Complement Operator !
+    <p>16.1.5. Conditional Operator ? :
+    <p>16.1.6. switch Expressions
+    <p>16.1.7. Other Expressions of Type boolean
+    <p>16.1.8. Assignment Expressions
+    <p>16.1.9. Operators ++ and --
+    <p>16.1.10. Other Expressions
+    <p>16.2. Definite Assignment and Statements
+    <p>16.2.1. Empty Statements
+    <p>16.2.2. Blocks
+    <p>16.2.3. Local Class and Interface Declarations
+    <p>16.2.4. Local Variable Declaration Statements
+    <p>16.2.5. Labeled Statements
+    <p>16.2.6. Expression Statements
+    <p>16.2.7. if Statements
+    <p>16.2.8. assert Statements
+    <p>16.2.9. switch Statements
+    <p>16.2.10. while Statements
+    <p>16.2.11. do Statements
+    <p>16.2.12. for Statements
+    <p>16.2.12.1. Initialization Part of for Statement
+    <p>16.2.12.2. Incrementation Part of for Statement
+    <p>16.2.13. break, yield, continue, return, and throw Statements
+    <p>16.2.14. synchronized Statements
+    <p>16.2.15. try Statements
+    <p>16.3. Definite Assignment and Parameters
+    <p>16.4. Definite Assignment and Array Initializers
+    <p>16.5. Definite Assignment and Enum Constants
+    <p>16.6. Definite Assignment and Anonymous Classes
+    <p>16.7. Definite Assignment and Member Classes and Interfaces
+    <p>16.8. Definite Assignment and Static Initializers
+    <p>16.9. Definite Assignment, Constructors, and Instance Initializers
+    <p>17. Threads and Locks
+    <p>17.1. Synchronization
+    <p>17.2. Wait Sets and Notification
+    <p>17.2.1. Wait
+    <p>17.2.2. Notification
+    <p>17.2.3. Interruptions
+    <p>17.2.4. Interactions of Waits, Notification, and Interruption
+    <p>17.3. Sleep and Yield
+    <p>17.4. Memory Model
+    <p>17.4.1. Shared Variables
+    <p>17.4.2. Actions
+    <p>17.4.3. Programs and Program Order
+    <p>17.4.4. Synchronization Order
+    <p>17.4.5. Happens-before Order
+    <p>17.4.6. Executions
+    <p>17.4.7. Well-Formed Executions
+    <p>17.4.8. Executions and Causality Requirements
+    <p>17.4.9. Observable Behavior and Nonterminating Executions
+    <p>17.5. final Field Semantics
+    <p>17.5.1. Semantics of final Fields
+    <p>17.5.2. Reading final Fields During Construction
+    <p>17.5.3. Subsequent Modification of final Fields
+    <p>17.5.4. Write-Protected Fields
+    <p>17.6. Word Tearing
+    <p>17.7. Non-Atomic Treatment of double and long
+    <p>18. Type Inference
+    <p>18.1. Concepts and Notation
+    <p>18.1.1. Inference Variables
+    <p>18.1.2. Constraint Formulas
+    <p>18.1.3. Bounds
+    <p>18.2. Reduction
+    <p>18.2.1. Expression Compatibility Constraints
+    <p>18.2.2. Type Compatibility Constraints
+    <p>18.2.3. Subtyping Constraints
+    <p>18.2.4. Type Equality Constraints
+    <p>18.2.5. Checked Exception Constraints
+    <p>18.3. Incorporation
+    <p>18.3.1. Complementary Pairs of Bounds
+    <p>18.3.2. Bounds Involving Capture Conversion
+    <p>18.4. Resolution
+    <p>18.5. Uses of Inference
+    <p>18.5.1. Invocation Applicability Inference
+    <p>18.5.2. Invocation Type Inference
+    <p>18.5.2.1. Poly Method Invocation Compatibility
+    <p>18.5.2.2. Additional Argument Constraints
+    <p>18.5.3. Functional Interface Parameterization Inference
+    <p>18.5.4. More Specific Method Inference
+    <p>18.5.5. Record Pattern Type Inference
+    <p>19. Syntax
   </body>
 </html>
